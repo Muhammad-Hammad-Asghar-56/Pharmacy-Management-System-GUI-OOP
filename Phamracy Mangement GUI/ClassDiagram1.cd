@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Phamracy_Mangement_GUI.bill_Management.billSearchForm">
+    <Position X="16.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACACAAABAAACCAACACAQggAAAwAAAAAABAAAI=</HashCode>
+      <FileName>bill Management\billSearchForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.bill_Management.saleSummary">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQQCABABAAAACAAgACAAgAAAAAAQAAIAAAACA=</HashCode>
+      <FileName>bill Management\saleSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.bill_Management.ShowBillForm">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACQEGAABBgAABCAEAACACAAAAABgAAAIAAAACA=</HashCode>
+      <FileName>bill Management\ShowBillForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.Stock_Management.stockSummary">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAABAAAACAAAECAAwAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Stock Management\stockSummary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.User_Management.userAddForm">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABBASAAAAAAAICIIAAD0IA/ABIADgACAAJABiI=</HashCode>
+      <FileName>User Management\userAddForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.User_Management.editDetailsForm">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABASABAABAAYCIIAAD0IA/ABIADgACAAJABiI=</HashCode>
+      <FileName>User Management\editDetailsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.UsersOption.UserBillHistory">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAAAAACAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UsersOption\UserBillHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.Worker_Management.editWorkerDetailForm">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAECAAABAAAACAAAACgGUAAADAAIAAgAAABCQ=</HashCode>
+      <FileName>Worker_Management\editWorkerDetailForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Phamracy_Mangement_GUI.Worker_Management.ShowWorkersListForm">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAgAABAAAAAAAAAAAIA=</HashCode>
+      <FileName>Worker_Management\ShowWorkersListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

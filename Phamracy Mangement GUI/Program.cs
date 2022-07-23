@@ -16,7 +16,8 @@ namespace Phamracy_Mangement_GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            LoginForm newLoginScreen = new LoginForm();
+            Application.Run(newLoginScreen);
         }
     }
 }

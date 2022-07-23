@@ -46,16 +46,172 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="adminMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="adminMainForm.Designer.cs">
+      <DependentUpon>adminMainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="bill Management\billSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill Management\billSearchForm.Designer.cs">
+      <DependentUpon>billSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill Management\BillHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill Management\BillHistoryForm.Designer.cs">
+      <DependentUpon>BillHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill Management\billsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill Management\billsForm.Designer.cs">
+      <DependentUpon>billsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill Management\DisplayListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill Management\DisplayListForm.Designer.cs">
+      <DependentUpon>DisplayListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill Management\saleSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill Management\saleSummary.Designer.cs">
+      <DependentUpon>saleSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bill Management\ShowBillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bill Management\ShowBillForm.Designer.cs">
+      <DependentUpon>ShowBillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\bills.cs" />
+    <Compile Include="BL\medicine.cs" />
+    <Compile Include="BL\Muser.cs" />
+    <Compile Include="BL\worker.cs" />
+    <Compile Include="DL\billsDL.cs" />
+    <Compile Include="DL\medicineDL.cs" />
+    <Compile Include="DL\MuserDL.cs" />
+    <Compile Include="DL\workerDL.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Path.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="SignUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUP.Designer.cs">
+      <DependentUpon>SignUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock Management\AddInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock Management\AddInvoiceForm.Designer.cs">
+      <DependentUpon>AddInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock Management\stockSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock Management\stockSummary.Designer.cs">
+      <DependentUpon>stockSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock Management\thresholdMedicineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock Management\thresholdMedicineForm.Designer.cs">
+      <DependentUpon>thresholdMedicineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\editDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\editDetailsForm.Designer.cs">
+      <DependentUpon>editDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\EditUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\EditUserForm.Designer.cs">
+      <DependentUpon>EditUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Management\userAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Management\userAddForm.Designer.cs">
+      <DependentUpon>userAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usersMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usersMenuForm.Designer.cs">
+      <DependentUpon>usersMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersOption\UserBillHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersOption\UserBillHistory.Designer.cs">
+      <DependentUpon>UserBillHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersOption\userBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersOption\userBilling.Designer.cs">
+      <DependentUpon>userBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_Management\editWorkerDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_Management\editWorkerDetailForm.Designer.cs">
+      <DependentUpon>editWorkerDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_Management\EditWorkerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_Management\EditWorkerListForm.Designer.cs">
+      <DependentUpon>EditWorkerListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_Management\HireStaffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_Management\HireStaffForm.Designer.cs">
+      <DependentUpon>HireStaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker_Management\ShowWorkersListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_Management\ShowWorkersListForm.Designer.cs">
+      <DependentUpon>ShowWorkersListForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminMainForm.resx">
+      <DependentUpon>adminMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill Management\billSearchForm.resx">
+      <DependentUpon>billSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill Management\BillHistoryForm.resx">
+      <DependentUpon>BillHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill Management\billsForm.resx">
+      <DependentUpon>billsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill Management\DisplayListForm.resx">
+      <DependentUpon>DisplayListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill Management\saleSummary.resx">
+      <DependentUpon>saleSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bill Management\ShowBillForm.resx">
+      <DependentUpon>ShowBillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +222,49 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SignUP.resx">
+      <DependentUpon>SignUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock Management\AddInvoiceForm.resx">
+      <DependentUpon>AddInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock Management\stockSummary.resx">
+      <DependentUpon>stockSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock Management\thresholdMedicineForm.resx">
+      <DependentUpon>thresholdMedicineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\editDetailsForm.resx">
+      <DependentUpon>editDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\EditUserForm.resx">
+      <DependentUpon>EditUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Management\userAddForm.resx">
+      <DependentUpon>userAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usersMenuForm.resx">
+      <DependentUpon>usersMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersOption\UserBillHistory.resx">
+      <DependentUpon>UserBillHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersOption\userBilling.resx">
+      <DependentUpon>userBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker_Management\editWorkerDetailForm.resx">
+      <DependentUpon>editWorkerDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker_Management\EditWorkerListForm.resx">
+      <DependentUpon>EditWorkerListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker_Management\HireStaffForm.resx">
+      <DependentUpon>HireStaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker_Management\ShowWorkersListForm.resx">
+      <DependentUpon>ShowWorkersListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,9 +274,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Stock Management\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,4 @@
+hammad,19,Computer Man,Islam,10000
+Hammd,19,Computer rman,Islam,19000
+dildar,22,Cashier,islam,11000
+dildar,22,Cashier,islam,11000

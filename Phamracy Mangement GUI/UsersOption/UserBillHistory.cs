@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Phamracy_Mangement_GUI
+namespace Phamracy_Mangement_GUI.UsersOption
 {
-    public partial class Form1 : Form
+    public partial class UserBillHistory : Form
     {
-        public Form1()
+        public UserBillHistory()
         {
             InitializeComponent();
+        }
+
+        private void UserBillHistory_Load(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = DL.billsDL.getFullBillList();
         }
     }
 }
